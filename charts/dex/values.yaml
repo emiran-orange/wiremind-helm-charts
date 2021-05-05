@@ -228,6 +228,8 @@ config:
       inCluster: true
   logger:
     level: debug
+  telemetry:
+    address: 0.0.0.0
   web:
     # port is taken from ports section above
     address: 0.0.0.0
